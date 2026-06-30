@@ -1,0 +1,62 @@
+{
+  "id": "advanced-enchanting-system",
+  "title": "Расширенная система зачарований",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Носферату",
+      "discord": "velliusnosferatu",
+      "flags": {}
+    },
+    {
+      "name": "AnimeGirl",
+      "email": "vovadrobish@gmail.com",
+      "discord": "happyman0259",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "a-e-s",
+      "label": "Расширенная система зачарований",
+      "path": "packs/a-e-s",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "action": "manageModule",
+  "description": ""
+}
