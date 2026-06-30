@@ -1,7 +1,7 @@
 {
   "id": "advanced-enchanting-system",
   "title": "Расширенная система зачарований",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "compatibility": {
     "minimum": "13",
     "verified": "14.364",
@@ -62,7 +62,7 @@
   },
   "action": "manageModule",
   "manifest": "https://github.com/Lovalmar/DnD5e-AdvancedEnchantingSystem/releases/latest/download/module.json",
-  "download": "https://github.com/Lovalmar/DnD5e-AdvancedEnchantingSystem/releases/download/v.1.0.2/advanced-enchanting-system.zip",
+  "download": "https://github.com/Lovalmar/DnD5e-AdvancedEnchantingSystem/releases/download/v.1.0.3/advanced-enchanting-system.zip",
   "url": "https://github.com/Lovalmar/DnD5e-AdvancedEnchantingSystem",
   "description": ""
 }
